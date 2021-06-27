@@ -15,7 +15,6 @@
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
     "start": "npm run watch:all"
-   
   },
   "author": "Josh Beadle",
   "license": "ISC",
